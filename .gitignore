@@ -1,0 +1,16 @@
+# Eclipse workspace files
+.metadata/
+Servers/
+Servers3/
+
+# Tomcat folder
+ApacheTomcat/
+
+# Java compiled files
+*.class
+
+# Maven target folder
+target/
+
+# Logs
+*.log
