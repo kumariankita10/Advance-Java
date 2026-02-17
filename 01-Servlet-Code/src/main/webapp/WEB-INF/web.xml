@@ -8,22 +8,16 @@
                         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
 
     <display-name>Archetype Created Web Application</display-name>
+<context-param>
+<param-name>user</param-name>
+<param-value>postgres</param-value>
+</context-param>
 
-    <servlet>
-    <servlet-name>circle</servlet-name>
-    <servlet-class>in.jspider.AreaOfCircle </servlet-class>
-    <init-param>
-    <param-name>pi</param-name>
-    <param-value>3.142</param-value>
-    </init-param>
-    </servlet>
-    
-    <servlet-mapping>
-    <servlet-name>circle</servlet-name>
-    <url-pattern>/calculate</url-pattern>
-    
-    
-    </servlet-mapping>
+  <context-param>
+<param-name>appname</param-name>
+<param-value>demo</param-value>
+</context-param>
+   
 
 </web-app>
 

@@ -7,13 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
- 
-<form action="register"   >
-ID: <input type="text"  name="Id"><br>
-NAME: <input type="text" name="Name"><br>
-AGE: <input type="text"  name="Age"><br>
-<input type="submit" value="Register">
-</form>
-    
+<h3 style="color:red;">
+<%= request.getAttribute("error") %>
+</h3>
+
+<a href="login.jsp">Try Again</a>
 </body>
 </html>

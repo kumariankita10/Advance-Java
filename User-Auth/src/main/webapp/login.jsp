@@ -7,13 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
- 
-<form action="register"   >
-ID: <input type="text"  name="Id"><br>
-NAME: <input type="text" name="Name"><br>
-AGE: <input type="text"  name="Age"><br>
-<input type="submit" value="Register">
+<form action="login" method="post">
+USER: <input type="text" name="user"><br>
+PASSWORD: <input type="text" name="pswd"><br>
+<input type="submit" value="LOGIN">
 </form>
-    
+
+
 </body>
 </html>
